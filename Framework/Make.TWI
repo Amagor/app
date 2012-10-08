@@ -1,0 +1,4 @@
+
+# TWI
+DEFS += -DUSE_TWI
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.TWI

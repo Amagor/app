@@ -1,0 +1,4 @@
+
+# LEDs
+DEFS += -DUSE_LEDS
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.LEDs

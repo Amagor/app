@@ -1,0 +1,5 @@
+
+# Power management
+DEFS += -DUSE_PWR
+SRC  += $(OS_DIR)/PIL/PWR/PWR.c
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.PWR

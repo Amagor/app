@@ -1,0 +1,7 @@
+
+# NWK
+DEFS += -DUSE_NWK
+SRC  += $(OS_DIR)/PIL/NWK/MAC/MACLayer.c \
+        $(OS_DIR)/PIL/NWK/MAC/MACLayerCSMACA.c \
+        $(OS_DIR)/PIL/NWK/NWKLayer.c
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.NWK

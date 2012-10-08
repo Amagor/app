@@ -1,0 +1,3 @@
+
+# LEDs
+PLATFORM_SRC += $(OS_DIR)/PDL/$(PLATFORM)/PlatformLEDs.c

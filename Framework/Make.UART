@@ -1,0 +1,4 @@
+
+# UART
+DEFS += -DUSE_UART
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.UART

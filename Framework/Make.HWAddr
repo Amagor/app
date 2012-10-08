@@ -1,0 +1,4 @@
+
+# HW Addr
+DEFS += -DUSE_HWADDR
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.HWAddr

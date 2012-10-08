@@ -1,0 +1,6 @@
+Debug/
+*.bat
+*.elf
+*.srec
+*.hex
+*.cproj

@@ -1,0 +1,4 @@
+
+# Sensors
+DEFS += -DUSE_SENSORS
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.Sensors

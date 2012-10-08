@@ -1,0 +1,4 @@
+
+# Sensors
+PLATFORM_SRC += $(OS_DIR)/DRIVERS/SHT11/SHT11.c \
+                $(OS_DIR)/PDL/$(PLATFORM)/PlatformSensors.c

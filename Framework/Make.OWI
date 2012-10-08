@@ -1,0 +1,4 @@
+
+# OWI
+DEFS += -DUSE_OWI
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.OWI

@@ -1,0 +1,4 @@
+
+# SPI
+DEFS += -DUSE_SPI
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.SPI

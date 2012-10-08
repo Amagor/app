@@ -1,0 +1,5 @@
+
+# Timers
+DEFS += -DUSE_TIMERS
+SRC  += $(OS_DIR)/PIL/Timers/Timers.c
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.Timers

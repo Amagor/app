@@ -1,0 +1,4 @@
+
+# Buttons
+DEFS += -DUSE_BUTTONS
+include $(OS_DIR)/PDL/$(PLATFORM)/Make.Platform.Buttons
