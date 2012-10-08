@@ -822,10 +822,10 @@ uint8_t LinkQuality,uint64_t RxTime )){
 RESULT NWK_Data_Tx(uint16_t DstAddr, uint8_t NsduLength, uint8_t NsduHandle, uint8_t *NsduData, 
 EVENT (*NWK_TxDone)(BOOL status, uint8_t NsduHandle, uint64_t TxTime)){
 	
-	// if ((NsduLength>MAX_NPDU_SIZE)&&(NsduLength==0)) return FAIL;
-    // if (NWK_TxDone==0) return FAIL;
+	if ((NsduLength>MAX_NPDU_SIZE)&&(NsduLength==0)) return FAIL;
+    if (NWK_TxDone==0) return FAIL;
 	//  (Radius==0) return Radius=1;
-	// if (Thread_IsActive(RouterThread)==0) return FAIL;
+	if (Thread_IsActive(RouterThread)==0) return FAIL;
 
 	//очищается буфер	
 	uint8_t Buf[127]; 
